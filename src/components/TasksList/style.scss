@@ -1,0 +1,74 @@
+.task-lists {
+    
+    .row {
+        padding: 5px !important;
+    }
+
+    .container {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000014;
+        border-radius: 12px;
+    }
+
+    ul.tasks {
+        list-style-type: none;
+        list-style-position: inside;
+        padding: 25px;
+        width: 100%;
+
+        li {
+            font-family: Montserrat;
+            padding: 25px 0;
+            border-bottom: 1px solid #E8E8E8;
+
+            label {
+                font-size: 20px;
+                letter-spacing: 0px;
+                display: inline-block;
+                color: #5285EC;
+                width: calc(100% - 50px);
+            }
+
+            .completed {
+                text-decoration: line-through;
+                color: #537178 !important;
+            }
+
+            &:last-child {
+                border-bottom: none;
+                padding-bottom:0;
+            }
+
+            &:first-child {
+                padding-top: 0;
+            }
+
+            .actions {
+                cursor: pointer;
+                float: right;
+                display: inline-block;
+                color: #647278;
+            }
+        }
+    }
+
+    .task-header {
+        color: #537178;
+        font-size: 20px;
+    }
+
+    input[type=text] {
+        background: #EEF1F8 0% 0% no-repeat padding-box !important;
+        border-radius: 8px !important;
+        border: none !important;
+        width: 244px !important;
+        margin-right: 12px !important;
+    }
+
+    button {
+        background: #5285EC 0% 0% no-repeat padding-box !important;
+        border-radius: 8px !important;
+        border: none !important;
+        color: #fff !important;
+    }
+}

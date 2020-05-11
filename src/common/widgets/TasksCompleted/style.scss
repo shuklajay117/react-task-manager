@@ -1,0 +1,33 @@
+.task-completed-wrapper {
+	min-height: 160px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 12px;
+	padding: 24px;
+
+	.task-completed {
+			letter-spacing: 0px;
+			color: #537178;
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 25px;
+	}
+
+	.num-completed {
+			font-size: 64px;
+			color: #5285EC;
+			position: relative;
+			vertical-align: super;
+	}
+
+	.num-total {
+			color: #8F9EA2;
+			position: absolute;
+			font-size: 20px;
+			display: inline-block;
+			width: 45px;
+			bottom: 3px;
+			font-family: Montserrat;
+			left: 32px;
+	}
+}

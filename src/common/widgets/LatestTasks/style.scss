@@ -1,0 +1,25 @@
+.task-list-wrapper {
+    min-height: 160px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 12px;
+	padding: 24px;
+
+    .task-header {
+        letter-spacing: 0px;
+        color: #537178;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .task-list {
+        color: #8F9EA2;
+        font-size: 14px;
+        padding-left: 0;
+        list-style-position: inside;
+
+        .completed {
+            text-decoration: line-through;
+        }
+    }
+}
